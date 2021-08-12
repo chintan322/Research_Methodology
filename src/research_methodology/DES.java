@@ -59,8 +59,7 @@ public class DES {
             decrypt = Cipher.getInstance("DES/CBC/PKCS5Padding");  
             decrypt.init(Cipher.DECRYPT_MODE, scrtkey, aps);  
             
-            
-            
+                        
             //calling encrypt() method to encrypt the file  
             
             long startTime = System.nanoTime();
@@ -69,8 +68,7 @@ public class DES {
             long totalTime = endTime - startTime;
             System.out.println("Encryption Time"+totalTime);
             
-            
-            
+                        
             //calling decrypt() method to decrypt the file  
             
             startTime = System.nanoTime();
@@ -79,14 +77,7 @@ public class DES {
             totalTime = endTime - startTime;
             System.out.println("Decryption Time"+totalTime);
             
-            
-            
-            
-            
-            
-            
-            
-            
+                        
             //prints the stetment if the program runs successfully  
             System.out.println("The encrypted and decrypted files have been created successfully.");  
         }
