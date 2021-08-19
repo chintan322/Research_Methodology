@@ -90,6 +90,11 @@ Here's why:
 * RSA
 <img src="images/RSA_OP.PNG" alt="Logo" width="375" height="100">
 
+
+* Comparision of results
+<img src="images/Result_en.PNG" alt="Logo" width="375" height="100">
+<img src="images/Result_de.PNG" alt="Logo" width="375" height="100">
+
 ## Contact
 
 - [Chintan Sutariya](https://github.com/chintan322) 
