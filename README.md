@@ -77,7 +77,11 @@ Here's why:
 
 
 ## Outputs
+* DES
 <img src="images/DES_OP.PNG" alt="Logo" width="375" height="100">
+
+* AES
+<img src="images/AES_OP.PNG" alt="Logo" width="375" height="100">
 
 ## Contact
 
