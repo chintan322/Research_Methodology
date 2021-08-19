@@ -28,6 +28,7 @@
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>      
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#outputs">Output</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
