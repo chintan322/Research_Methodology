@@ -83,6 +83,12 @@ Here's why:
 * AES
 <img src="images/AES_OP.PNG" alt="Logo" width="375" height="100">
 
+* Blowfish
+<img src="images/Blowfish_OP.PNG" alt="Logo" width="375" height="100">
+
+* RSA
+<img src="images/RSA_OP.PNG" alt="Logo" width="375" height="100">
+
 ## Contact
 
 - [Chintan Sutariya](https://github.com/chintan322) 
