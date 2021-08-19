@@ -54,25 +54,32 @@ public class Blowfish {
     
     public static void main(String args[]) {
         
+        String originalString = "ABCDEFGH";
         long startTime = System.nanoTime();
-        String en_word = encrypt("Please encrypt me");
+        String encryptedString = encrypt(originalString);
         long endTime   = System.nanoTime();
-        long totalTime = endTime - startTime;
-        System.out.println("Encryption Time"+totalTime);
+        long totalTimeEn = endTime - startTime;
+        
         
        
-        System.out.println("Your Encrypted word is :" + en_word);
+        
         
         
         
         startTime = System.nanoTime();
-        String de_word = decrypt(en_word);
+        String decryptedString = decrypt(encryptedString);
         endTime   = System.nanoTime();
-        totalTime = endTime - startTime;
-        System.out.println("Decryption Time"+totalTime);
+        long totalTimeDe = endTime - startTime;
+        
+        System.out.println("Blowfish");
+        System.out.println("Your PlainText word is :" + originalString);
+        System.out.println("Your Encrypted word is :" + encryptedString);
+        System.out.println("Your Decrypted word is :" + decryptedString);
+        System.out.println("Encryption Time : "+totalTimeEn);
+        System.out.println("Decryption Time : "+totalTimeDe);
         
         
-        System.out.println("Your Decrypted word is :" + de_word);
+        
     }
 }
 

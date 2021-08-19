@@ -66,25 +66,27 @@ public class AES {
     {
         final String secretKey = "ssshhhhhhhhhhh!!!!";
 
-        String originalString = "howtodoinjava.com";
+        String originalString = "ABCDEFGH";
         
         long startTime = System.nanoTime();
         String encryptedString = AES.encrypt(originalString, secretKey) ;
         long endTime   = System.nanoTime();
-        long totalTime = endTime - startTime;
-        System.out.println("Encryption Time"+totalTime);
+        long totalTimeEn = endTime - startTime;
+        
         
         
         startTime = System.nanoTime();
         String decryptedString = AES.decrypt(encryptedString, secretKey) ;
         endTime   = System.nanoTime();
-        totalTime = endTime - startTime;
-        System.out.println("Decryption Time"+totalTime);
+        long totalTimeDe = endTime - startTime;
         
-
-        System.out.println(originalString);
-        System.out.println(encryptedString);
-        System.out.println(decryptedString);
+        
+        System.out.println("AES");
+        System.out.println("Your PlainText word is :" + originalString);
+        System.out.println("Your Encrypted word is :" + encryptedString);
+        System.out.println("Your Decrypted word is :" + decryptedString);
+        System.out.println("Encryption Time : "+totalTimeEn);
+        System.out.println("Decryption Time : "+totalTimeDe);
     }
 }
 
